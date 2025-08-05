@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test Series Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+      background-color: #0f1117;
+      color: #ffffff;
+      transition: all 0.3s ease;
+    }
+
+    header, footer {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .hero {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #00f0ff;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #ccc;
+    }
+
+    .cta-button {
+      margin-top: 20px;
+      padding: 12px 30px;
+      background-color: #00f0ff;
+      color: #0f1117;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #00bccc;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .feature-box {
+      background-color: #1a1d24;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      transition: transform 0.3s;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .pricing {
+      margin-top: 30px;
+    }
+
+    .pricing a {
+      color: #00f0ff;
+      font-size: 1.2rem;
+      text-decoration: underline;
+      transition: color 0.3s;
+    }
+
+    .pricing a:hover {
+      color: #00bccc;
+    }
+
+    footer {
+      border-top: 1px solid #333;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Rahul Sir Classes</h2>
+  </header>
+
+  <section class="hero">
+    <h1>Crack Exams with Confidence</h1>
+    <p>Join our expertly curated test series designed to boost your performance.</p>
+    <button class="cta-button">Join Now</button>
+  </section>
+
+  <section class="section features">
+    <div class="feature-box">📝 500+ Practice Questions</div>
+    <div class="feature-box">📊 Real-Time Analytics</div>
+    <div class="feature-box">📚 Topic-wise Tests</div>
+    <div class="feature-box">🔁 Unlimited Retakes</div>
+    <div class="feature-box">📅 Weekly Mock Exams</div>
+    <div class="feature-box">💬 Expert Support</div>
+  </section>
+
+  <section class="section pricing">
+    <p>Pricing starts at just ₹199/month</p>
+    <a href="#">Click here to view pricing plans</a>
+  </section>
+
+  <footer>
+    <p>Contact us: support@rahulsirclasses.com | +91-9876543210</p>
+    <p>© 2025 Rahul Sir Classes</p>
+  </footer>
+
+</body>
+</html>
